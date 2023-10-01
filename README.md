@@ -150,3 +150,48 @@ To configure aws creds:
 ```sh
 aws configure
 ```
+
+### Terraform 
+
+[Terraform registry](https://registry.terraform.io/)
+
+- **Providers** are a logical abstraction of an upstream API. They are responsible for understanding API interactions and exposing resources.
+- **Modules** are small, reusable Terraform configurations that let you manage a group of related resources as if they were a single resource
+
+#### TF init
+
+```sh
+terraform init
+```
+This command initializes a new or existing Terraform configuration. It downloads the necessary provider plugins and sets up the backend, which is where Terraform stores its state.
+
+#### TF plan
+
+```sh
+terraform plan
+```
+
+This command creates an execution plan based on the Terraform configuration. It shows you what actions Terraform will take to reach the desired state specified in your configuration.
+
+#### TF apply
+
+```sh
+terraform apply
+```
+This command applies the changes described in the execution plan. It prompts you to confirm that you want to make the changes.
+To approve automatically : `terraform apply --auto-approve`
+
+#### TF state file
+
+The state file reflects the current state of your infrastructure
+
+#### TF state file
+
+The lock file ensures that operations are performed safely and prevent conflicts in concurrent scenario
+
+
+```sh
+terraform output random_bucket_name
+```
+
+
