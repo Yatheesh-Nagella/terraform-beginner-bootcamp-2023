@@ -189,7 +189,7 @@ The state file reflects the current state of your infrastructure
 
 The lock file ensures that operations are performed safely and prevent conflicts in concurrent scenario
 
-
+- The below code outputs "random_bucket_name" hash value
 ```sh
 terraform output random_bucket_name
 ```
