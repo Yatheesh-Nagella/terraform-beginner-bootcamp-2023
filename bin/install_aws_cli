@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+cd /workspace
+
+file_to_remove="awscliv2.zip"
+
+rm -f "/workspace/$file_to_remove"
+rm -rf "/workspace/aws"
+
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+
+cd $PROJECT_ROOT
