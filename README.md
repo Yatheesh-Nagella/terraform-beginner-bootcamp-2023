@@ -185,7 +185,7 @@ To approve automatically : `terraform apply --auto-approve`
 
 The state file reflects the current state of your infrastructure
 
-#### TF state file
+#### TF lock file
 
 The lock file ensures that operations are performed safely and prevent conflicts in concurrent scenario
 
