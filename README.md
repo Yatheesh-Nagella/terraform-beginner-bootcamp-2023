@@ -181,6 +181,11 @@ terraform apply
 This command applies the changes described in the execution plan. It prompts you to confirm that you want to make the changes.
 To approve automatically : `terraform apply --auto-approve`
 
+#### TF destroy
+`terraform destroy`
+
+This command reads your Terraform configuration, identifies the resources that were created, and then prompts you for confirmation before destroying them. 
+
 #### TF state file
 
 The state file reflects the current state of your infrastructure
