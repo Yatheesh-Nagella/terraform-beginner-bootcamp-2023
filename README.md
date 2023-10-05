@@ -194,9 +194,27 @@ The state file reflects the current state of your infrastructure
 
 The lock file ensures that operations are performed safely and prevent conflicts in concurrent scenario
 
+#### TF login
 
-```sh
-terraform output random_bucket_name
+` terraform login `
+
+Login to terraform using cli and generate a token, access infra in console and if encountered any problem while loging refer below link:
+
+` https://app.terraform.io/app/settings/tokens?source=terraform-login `
+
+Then create open the file manually here:
+
+`touch /home/gitpod/.terraform.d/credentials.tfrc.json
+open /home/gitpod/.terraform.d/credentials.tfrc.json`
+
+Provide the following code (replace your token in the file):
 ```
-
+{
+  "credentials": {
+    "app.terraform.io": {
+      "token": "YOUR-TERRAFORM-CLOUD-TOKEN"
+    }
+  }
+}
+```
 
