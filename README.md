@@ -218,3 +218,7 @@ Provide the following code (replace your token in the file):
 }
 ```
 
+#### Set alias 
+
+Add a script to bin directory [bin/set_tf_alias](bin/set_tf_alias)
+the process adds terraform='tf' as an alias to " source ~/.bash_profile "
