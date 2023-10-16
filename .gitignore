@@ -36,3 +36,7 @@ terraform.rc
 # Ignore aws download files
 awscliv2.zip
 aws
+
+# gitignore
+.gitignore
+gitignore
