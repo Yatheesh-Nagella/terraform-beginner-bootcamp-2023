@@ -10,7 +10,7 @@
    * [Considerations for Linux Distribution](#considerations-for-linux-distribution)
       + [Execution Considerations](#execution-considerations)
       + [Linux Permissions Considerations](#linux-permissions-considerations)
-   * [Github Lifecycle (Before, Init, Command)](#github-lifecycle-before-init-command)
+   * [Gitpod Lifecycle (Before, Init, Command)](#gitpod-lifecycle-before-init-command)
    * [Working with ENV Vars](#working-with-env-vars)
       + [Setting and Unsetting Env Vars](#setting-and-unsetting-env-vars)
       + [Printing Vars](#printing-vars)
@@ -114,8 +114,8 @@ chmod 744 ./bin/install_terraform_cli
 
 https://en.wikipedia.org/wiki/Chmod
 
-<!-- TOC --><a name="github-lifecycle-before-init-command"></a>
-### Github Lifecycle (Before, Init, Command)
+<!-- TOC --><a name="Gitpod-lifecycle-before-init-command"></a>
+### Gitpod Lifecycle (Before, Init, Command)
 
 We need to be careful when using the Init because it will not rerun if we restart an existing workspace.
 
