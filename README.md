@@ -11,4 +11,4 @@
 
 ### Extras
 - [TOC generator](https://derlin.github.io/bitdowntoc/)
-- [GIT scenarios]()
+- [GIT scenarios](./journal/gitcmds.md)
