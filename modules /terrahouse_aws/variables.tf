@@ -19,3 +19,13 @@ variable "bucket_name" {
     error_message = "The bucket name must be between 3 and 63 characters, start and end with a lowercase letter or number, and can contain only lowercase letters, numbers, hyphens, and dots."
   }
 }
+
+variable "index_html_filepath" {
+  type    = string
+  default = "/workspace/terraform-beginner-bootcamp-2023/public/index.html"
+}
+
+variable "error_html_filepath" {
+  type    = string
+  default = "/workspace/terraform-beginner-bootcamp-2023/public/error.html"
+}
