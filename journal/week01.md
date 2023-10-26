@@ -218,3 +218,5 @@ We use the jsonencode to create the json policy inline in the hcl.
 - CFN ![CFN](image-1.png)
 
 - S3-bucket-objects ![S3-bucket-objects](image-2.png)
+
+### Changine the lifecycle 
