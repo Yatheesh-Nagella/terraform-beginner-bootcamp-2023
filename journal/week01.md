@@ -293,3 +293,28 @@ This is mostly useful when you are creating multiples of a cloud resource and yo
 
 [For Each Expressions](https://developer.hashicorp.com/terraform/language/expressions/for)
 
+### terraform console
+
+```tf
+ terraform console
+> path.root
+"."
+
+> fileset("${path.root}/public/assets","*")
+toset([
+  "data.jpg",
+  "thanos.png",
+])
+
+> fileset("${path.root}/public/assets", "*.{jpg,png,gif}")
+toset([
+  "data.jpg",
+  "thanos.png",
+])
+```
+
+### Week 1 - Expected output screenshots
+
+![Alt text](image-3.png)
+
+![Alt text](image-4.png)
