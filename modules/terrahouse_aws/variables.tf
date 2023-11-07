@@ -20,12 +20,12 @@ variable "bucket_name" {
   }
 }
 
-variable "index_html_filepath" {
-  type    = string
-  default = "/public/index.html"
-}
+# variable "index_html_filepath" {
+#   type    = string
+#   default = "/workspace/terraform-beginner-bootcamp-2023/public/index.html"
+# }
 
-variable "error_html_filepath" {
-  type    = string
-  default = "/public/error.html"
-}
+# variable "error_html_filepath" {
+#   type    = string
+#   default = "/workspace/terraform-beginner-bootcamp-2023/public/error.html"
+# }
