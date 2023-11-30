@@ -54,6 +54,7 @@ https://sinatrarb.com/
 We can run the web server by executing the following commands:
 
 ```rb
+cd terratowns_mock_server
 bundle install
 bundle exec ruby server.rb
 ```
