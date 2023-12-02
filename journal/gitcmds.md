@@ -1,5 +1,7 @@
 
 
+## Basic git cmds
+
 `git fetch`
 
 `git checkout main`
@@ -45,3 +47,10 @@ while working on another branch and shifting to another branch (main -> 11-terra
 `git push origin --delete 'old_tag_name'`
 
 This will delete the old tag on the remote repository.
+
+
+### Cloning a git repo
+
+- `git clone https://github.com/ExamProCo/terratowns_mock_server.git`
+- `ls -la` lists all the folders(ls) with permission access(-la) 
+- `rm -rf .git` remove with force .git file

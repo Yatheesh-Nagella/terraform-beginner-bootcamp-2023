@@ -8,6 +8,7 @@
 
 - [Week 0 Journal](./journal/week00.md)
 - [Week 1 Journal](./journal/week01.md)
+- [Week 2 Journal](./journal/week02.md)
 
 ### Extras
 - [TOC generator](https://derlin.github.io/bitdowntoc/)
