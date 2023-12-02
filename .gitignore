@@ -33,6 +33,9 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+# terraform provider build version file
+terraform-provider-terratowns/terraform-provider-terratowns_v1.0.0
+
 # Ignore aws download files
 awscliv2.zip
 aws

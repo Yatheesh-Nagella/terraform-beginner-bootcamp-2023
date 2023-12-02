@@ -60,3 +60,20 @@ bundle exec ruby server.rb
 ```
 
 All of the code for our server is stored in the `server.rb` file.
+
+# Terraform provider: TerraTowns
+
+Created a main.go file
+
+```cd terraform-provider-terratowns```
+
+```go
+go run main.go
+go mod init gotest
+go build -o terraform-provider-terratowns_v1.0.0 
+```
+
+terraformrc
+```cli
+
+```
