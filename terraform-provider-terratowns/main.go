@@ -23,7 +23,7 @@ func main() {
 	})
 	// Format.PrintLine
 	// Prints to standard output
-	fmt.Println("Hello, world!")
+	fmt.Println("Hello bro!")
 }
 
 type Config struct {
