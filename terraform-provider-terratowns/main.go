@@ -178,7 +178,6 @@ func resourceHouseCreate(ctx context.Context, d *schema.ResourceData, m interfac
 	}
 
 	// handle response status
-
 	homeUUID := responseData["uuid"].(string)
 	d.SetId(homeUUID)
 
