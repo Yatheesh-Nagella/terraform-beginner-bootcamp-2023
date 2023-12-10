@@ -1,5 +1,4 @@
 tasks:
-  
   - name: terraform
     env:
       TF_LOG: DEBUG
@@ -9,6 +8,7 @@ tasks:
       source ./bin/install_terraform_cli
       source ./bin/generate_tfrc_credentials
       cp $PROJECT_ROOT/terraform.tfvars.example $PROJECT_ROOT/terraform.tfvars
+      source ./bin/build_provider
   - name: sinatra
     before: | 
       cd $PROJECT_ROOT
@@ -19,10 +19,12 @@ tasks:
     env:
       AWS_CLI_AUTO_PROMPT: on-partial
     before: |
+      cd $PROJECT_ROOT
       source ./bin/set_tf_alias
       source ./bin/install_aws_cli
   - name: http-server
     before: |
+      cd $PROJECT_ROOT
       npm install --global http-server
     command: 
       http-server
@@ -31,4 +33,6 @@ vscode:
   extensions:
     - amazonwebservices.aws-toolkit-vscode
     - hashicorp.terraform
+    - phil294.git-log--graph
     - mhutchie.git-graph
+    - phil294.git-log--graph
