@@ -237,6 +237,7 @@ This command reads your Terraform configuration, identifies the resources that w
 
 <!-- TOC --><a name="tf-state-file"></a>
 #### TF state file
+`terraform state file`
 
 The state file reflects the current state of your infrastructure
 
